@@ -132,6 +132,403 @@ function datapublic_demo_content_defaults() {
     ),
   );
 
+  $content['Dataset_1'] = (object) array(
+    'exported_path' => 'datasets/anotherdataset',
+    'title' => 'Recreation Centre Locations',
+    'status' => '1',
+    'promote' => '0',
+    'sticky' => '0',
+    'type' => 'dataset',
+    'language' => 'en',
+    'created' => '1325876379',
+    'comment' => '1',
+    'translate' => '0',
+    'machine_name' => 'Dataset_1',
+    'body' => array(
+      'und' => array(
+        0 => array(
+          'value' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius, ipsum vitae dapibus faucibus, massa erat commodo sapien, id blandit nulla purus nec tellus. Nam vel justo tellus, in vestibulum erat. Mauris molestie, risus ultrices mattis pellentesque, tellus est tincidunt velit, id tincidunt augue ipsum sed orci. Integer neque tortor, pulvinar sit amet consequat in, ultrices at est. Aliquam erat volutpat. Pellentesque ipsum lectus, hendrerit at tincidunt et, bibendum nec eros. Morbi vitae risus non elit pretium euismod non et urna. Morbi faucibus tincidunt urna, fringilla volutpat est pretium sed. Suspendisse sit amet ligula nec nunc dapibus facilisis. Integer lectus velit, porttitor in congue et, pellentesque at lectus. Ut ipsum quam, tristique vel pharetra a, suscipit at quam. Vestibulum ut justo id leo suscipit vehicula. Duis non quam lacus. Suspendisse imperdiet iaculis dui eget pretium. Ut nibh mauris, sollicitudin ut ornare quis, interdum interdum tortor. Vestibulum ac dolor a turpis lobortis ornare tempus et tortor.
+  
+  Duis sed mauris arcu, ut tincidunt dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat. Praesent arcu nisi, dictum suscipit euismod eget, molestie id orci. Nulla hendrerit facilisis consectetur. Curabitur cursus mollis massa ac malesuada. Mauris ultrices nibh ut lorem placerat viverra. Pellentesque ultricies dui nunc.',
+          'summary' => '',
+          'format' => 'plain_text',
+          'safe_value' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius, ipsum vitae dapibus faucibus, massa erat commodo sapien, id blandit nulla purus nec tellus. Nam vel justo tellus, in vestibulum erat. Mauris molestie, risus ultrices mattis pellentesque, tellus est tincidunt velit, id tincidunt augue ipsum sed orci. Integer neque tortor, pulvinar sit amet consequat in, ultrices at est. Aliquam erat volutpat. Pellentesque ipsum lectus, hendrerit at tincidunt et, bibendum nec eros. Morbi vitae risus non elit pretium euismod non et urna. Morbi faucibus tincidunt urna, fringilla volutpat est pretium sed. Suspendisse sit amet ligula nec nunc dapibus facilisis. Integer lectus velit, porttitor in congue et, pellentesque at lectus. Ut ipsum quam, tristique vel pharetra a, suscipit at quam. Vestibulum ut justo id leo suscipit vehicula. Duis non quam lacus. Suspendisse imperdiet iaculis dui eget pretium. Ut nibh mauris, sollicitudin ut ornare quis, interdum interdum tortor. Vestibulum ac dolor a turpis lobortis ornare tempus et tortor.</p>
+  <p>Duis sed mauris arcu, ut tincidunt dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat. Praesent arcu nisi, dictum suscipit euismod eget, molestie id orci. Nulla hendrerit facilisis consectetur. Curabitur cursus mollis massa ac malesuada. Mauris ultrices nibh ut lorem placerat viverra. Pellentesque ultricies dui nunc.</p>
+  ',
+          'safe_summary' => '',
+        ),
+      ),
+    ),
+    'field_dataset_name' => array(
+      'und' => array(
+        0 => array(
+          'value' => 'another_dataset',
+          'format' => NULL,
+          'safe_value' => 'another_dataset',
+        ),
+      ),
+    ),
+    'field_dataset_tags' => array(
+      'und' => array(
+        0 => array(
+          'tid' => '45',
+        ),
+      ),
+    ),
+    'field_dataset_release_date' => array(
+      'und' => array(
+        0 => array(
+          'value' => '2011-07-08 00:00:00',
+          'timezone' => 'America/Los_Angeles',
+          'timezone_db' => 'America/Los_Angeles',
+          'date_type' => 'datetime',
+        ),
+      ),
+    ),
+    'field_dataset_updated_date' => array(
+      'und' => array(
+        0 => array(
+          'value' => '2012-01-06 00:00:00',
+          'timezone' => 'America/Los_Angeles',
+          'timezone_db' => 'America/Los_Angeles',
+          'date_type' => 'datetime',
+        ),
+      ),
+    ),
+    'field_dataset_contact_name' => array(
+      'und' => array(
+        0 => array(
+          'value' => 'Colin Calnan',
+          'format' => NULL,
+          'safe_value' => 'Colin Calnan',
+        ),
+      ),
+    ),
+    'field_dataset_contact_email' => array(
+      'und' => array(
+        0 => array(
+          'value' => 'colin@raisedeyebrow.com',
+          'format' => NULL,
+          'safe_value' => 'colin@raisedeyebrow.com',
+        ),
+      ),
+    ),
+    'field_dataset_contact_department' => array(
+      'und' => array(
+        0 => array(
+          'value' => 'Web',
+          'format' => NULL,
+          'safe_value' => 'Web',
+        ),
+      ),
+    ),
+    'field_dataset_upload' => array(
+      'und' => array(
+        0 => array(
+          'value' => '4',
+        ),
+        1 => array(
+          'value' => '8',
+        ),
+        2 => array(
+          'value' => '44',
+        ),
+        3 => array(
+          'value' => '46',
+        ),
+        4 => array(
+          'value' => '54',
+        ),
+      ),
+    ),
+    'field_dataset_external' => array(
+      'und' => array(
+        0 => array(
+          'value' => '6',
+        ),
+        1 => array(
+          'value' => '45',
+        ),
+        2 => array(
+          'value' => '47',
+        ),
+        3 => array(
+          'value' => '55',
+        ),
+      ),
+    ),
+    'field_dataset_csv' => array(
+      'und' => array(
+        0 => array(
+          'value' => '<span>CSV</span>',
+        ),
+      ),
+    ),
+    'field_dataset_dwg' => array(
+      'und' => array(
+        0 => array(
+          'value' => NULL,
+        ),
+      ),
+    ),
+    'field_dataset_kml' => array(
+      'und' => array(
+        0 => array(
+          'value' => NULL,
+        ),
+      ),
+    ),
+    'field_dataset_shp' => array(
+      'und' => array(
+        0 => array(
+          'value' => NULL,
+        ),
+      ),
+    ),
+    'field_dataset_xls' => array(
+      'und' => array(
+        0 => array(
+          'value' => '<span>XLS</span>',
+        ),
+      ),
+    ),
+    'field_dataset_xml' => array(
+      'und' => array(
+        0 => array(
+          'value' => NULL,
+        ),
+      ),
+    ),
+    'field_dataset_api' => array(
+      'und' => array(
+        0 => array(
+          'value' => NULL,
+        ),
+      ),
+    ),
+    'field_dataset_kmz' => array(
+      'und' => array(
+        0 => array(
+          'value' => '<span>KMZ</span>',
+        ),
+      ),
+    ),
+    'field_dataset_ogdi' => array(
+      'und' => array(
+        0 => array(
+          'url' => 'http://datadotgcds.cloudapp.net/v1/def/recreationcentres',
+          'markers' => array(
+            'title' => 'name',
+            'description' => 'address,city,phone',
+            'latitude' => 'latitude',
+            'longitude' => 'longitude',
+          ),
+        ),
+      ),
+    ),
+  );
+
+  $content['Dataset_2'] = (object) array(
+    'exported_path' => 'datasets/onewaystreets',
+    'title' => 'One Way Streets',
+    'status' => '1',
+    'promote' => '0',
+    'sticky' => '0',
+    'type' => 'dataset',
+    'language' => 'en',
+    'created' => '1326917335',
+    'comment' => '1',
+    'translate' => '0',
+    'machine_name' => 'Dataset_2',
+    'body' => array(
+      'und' => array(
+        0 => array(
+          'value' => 'This package consists of several files and components as follows:
+  
+  Non-City streets
+  One way streets
+  Public streets
+  Alleyways
+  Intersections
+  Street centerline and names are included.  The street centerline network includes linear street objects that reflect the approximate center of the dedicated street right-of-way. Street names are typically displayed for each segment of the street centerline network. The linear network is broken at the intersection of two or more City streets or alleyways.',
+          'summary' => '',
+          'format' => 'plain_text',
+          'safe_value' => '<p>This package consists of several files and components as follows:</p>
+  <p>Non-City streets<br />
+  One way streets<br />
+  Public streets<br />
+  Alleyways<br />
+  Intersections<br />
+  Street centerline and names are included.  The street centerline network includes linear street objects that reflect the approximate center of the dedicated street right-of-way. Street names are typically displayed for each segment of the street centerline network. The linear network is broken at the intersection of two or more City streets or alleyways.</p>
+  ',
+          'safe_summary' => '',
+        ),
+      ),
+    ),
+    'field_dataset_name' => array(
+      'und' => array(
+        0 => array(
+          'value' => 'one_way_streets',
+          'format' => NULL,
+          'safe_value' => 'one_way_streets',
+        ),
+      ),
+    ),
+    'field_dataset_release_date' => array(
+      'und' => array(
+        0 => array(
+          'value' => '2012-01-18 00:00:00',
+          'timezone' => 'America/Los_Angeles',
+          'timezone_db' => 'America/Los_Angeles',
+          'date_type' => 'datetime',
+        ),
+      ),
+    ),
+    'field_dataset_updated_date' => array(
+      'und' => array(
+        0 => array(
+          'value' => '2012-01-18 00:00:00',
+          'timezone' => 'America/Los_Angeles',
+          'timezone_db' => 'America/Los_Angeles',
+          'date_type' => 'datetime',
+        ),
+      ),
+    ),
+    'field_dataset_contact_name' => array(
+      'und' => array(
+        0 => array(
+          'value' => 'Colin Calnan',
+          'format' => NULL,
+          'safe_value' => 'Colin Calnan',
+        ),
+      ),
+    ),
+    'field_dataset_contact_email' => array(
+      'und' => array(
+        0 => array(
+          'value' => 'colin@raisedeyebrow.com',
+          'format' => NULL,
+          'safe_value' => 'colin@raisedeyebrow.com',
+        ),
+      ),
+    ),
+    'field_dataset_contact_department' => array(
+      'und' => array(
+        0 => array(
+          'value' => 'Engineering',
+          'format' => NULL,
+          'safe_value' => 'Engineering',
+        ),
+      ),
+    ),
+    'field_dataset_upload' => array(
+      'und' => array(
+        0 => array(
+          'value' => '30',
+        ),
+        1 => array(
+          'value' => '36',
+        ),
+        2 => array(
+          'value' => '37',
+        ),
+        3 => array(
+          'value' => '48',
+        ),
+        4 => array(
+          'value' => '56',
+        ),
+      ),
+    ),
+    'field_dataset_external' => array(
+      'und' => array(
+        0 => array(
+          'value' => '31',
+        ),
+        1 => array(
+          'value' => '32',
+        ),
+        2 => array(
+          'value' => '33',
+        ),
+        3 => array(
+          'value' => '40',
+        ),
+        4 => array(
+          'value' => '41',
+        ),
+        5 => array(
+          'value' => '42',
+        ),
+        6 => array(
+          'value' => '43',
+        ),
+        7 => array(
+          'value' => '49',
+        ),
+        8 => array(
+          'value' => '57',
+        ),
+      ),
+    ),
+    'field_dataset_csv' => array(
+      'und' => array(
+        0 => array(
+          'value' => '<span>CSV</span>',
+        ),
+      ),
+    ),
+    'field_dataset_dwg' => array(
+      'und' => array(
+        0 => array(
+          'value' => '<span>DWG</span>',
+        ),
+      ),
+    ),
+    'field_dataset_kml' => array(
+      'und' => array(
+        0 => array(
+          'value' => NULL,
+        ),
+      ),
+    ),
+    'field_dataset_shp' => array(
+      'und' => array(
+        0 => array(
+          'value' => '<span>SHP</span>',
+        ),
+      ),
+    ),
+    'field_dataset_xls' => array(
+      'und' => array(
+        0 => array(
+          'value' => NULL,
+        ),
+      ),
+    ),
+    'field_dataset_xml' => array(
+      'und' => array(
+        0 => array(
+          'value' => NULL,
+        ),
+      ),
+    ),
+    'field_dataset_api' => array(
+      'und' => array(
+        0 => array(
+          'value' => '<span>Google</span><span>Bing</span><span>OGDI</span><span>Something</span>',
+        ),
+      ),
+    ),
+    'field_dataset_kmz' => array(
+      'und' => array(
+        0 => array(
+          'value' => '<span>KMZ</span>',
+        ),
+      ),
+    ),
+  );
+
   $content['Document_1'] = (object) array(
     'exported_path' => 'documents/mayors-inaugural-speech',
     'title' => 'Mayor\'s Inaugural Speech',
